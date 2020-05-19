@@ -163,12 +163,6 @@ static NSUInteger kInstanceCounter = 0;
 
 #pragma mark - Life circle methods
 
-- (void)viewDidLayoutSubviews
-{
-    [super viewDidLayoutSubviews];
-    [FLUTTER_APP resume];
-}
-
 - (void)viewWillAppear:(BOOL)animated
 {
     //For new page we should attach flutter view in view will appear
