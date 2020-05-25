@@ -205,7 +205,7 @@ static NSUInteger kInstanceCounter = 0;
                                            uniqueId:self.uniqueIDString];
     
     //NOTES：务必在show之后再update，否则有闪烁
-    [self surfaceUpdated:YES];
+    // [self surfaceUpdated:YES];
     
     [super viewDidAppear:animated];
 }
